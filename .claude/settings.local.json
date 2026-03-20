@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir=false --import-alias=\"@/*\" --yes)",
+      "Bash(mkdir -p websup)",
+      "Bash(npx create-next-app@latest websup --typescript --tailwind --eslint --app --src-dir=false --import-alias=\"@/*\" --yes)",
+      "Bash(ls:*)",
+      "Bash(mkdir -p /c/Users/info/OneDrive/Documenten/GitHub/websupnl_website/websup/components/layout)",
+      "Bash(mkdir -p /c/Users/info/OneDrive/Documenten/GitHub/websupnl_website/websup/components/shared)",
+      "Bash(mkdir -p /c/Users/info/OneDrive/Documenten/GitHub/websupnl_website/websup/components/home)",
+      "Bash(mkdir -p /c/Users/info/OneDrive/Documenten/GitHub/websupnl_website/websup/components/blog)",
+      "Bash(mkdir -p /c/Users/info/OneDrive/Documenten/GitHub/websupnl_website/websup/lib)",
+      "Bash(npm run:*)",
+      "Bash(npx next:*)",
+      "Bash(grep -v \"^$\")"
+    ]
+  }
+}
